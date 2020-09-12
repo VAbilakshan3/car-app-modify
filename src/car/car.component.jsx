@@ -18,7 +18,7 @@ class Car extends Component {
         });
         return (
             <div>
-                <h1>Cars page</h1>
+                <h1 className="text-center">Courses</h1>
                 <div className="list-group">
                     {carNode}
                 </div>

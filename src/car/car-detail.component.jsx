@@ -25,14 +25,14 @@ class CarDetail extends Component {
                     </div>
                     <div className="col-sm-6 col-md-4">
                        <ul>
-                           <li><strong>Model</strong>: {car[0].model}</li>
-                           <li><strong>Make</strong>: {car[0].make}</li>
-                           <li><strong>Year</strong>: {car[0].year}</li>
-                           <li><strong>Price</strong>: {car[0].price}</li>
+                           <li><strong>Course</strong>: {car[0].Course}</li>
+                           <li><strong>Hours</strong>: {car[0].Hours}</li>
+                           <li><strong>Description</strong>: {car[0].Description}</li>
+                           <li><strong>Link</strong>: {car[0].Link}</li>
                        </ul>
                     </div>
                     <div className="col-md-12">
-                        <button className="btn btn-default" onClick={this.handleRedirect.bind(this)}>Go to Cars</button>
+                        <button className="btn btn-default" onClick={this.handleRedirect.bind(this)}>Go to Course</button>
                     </div>
                 </div>
             </div>
